@@ -22,3 +22,9 @@ A partir de la lista de estudiantes o colaboradores, y sus fotografias, se gener
 Para ejecutar el programa, debes ejecutar:
 
     python main.py
+
+## Agradecimientos
+
+Este codigo esta basado en gran parte en el trabajo de: 
+
+- https://github.com/aryanraj2713/ID-card-generator-using-python
