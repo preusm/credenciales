@@ -49,7 +49,7 @@ for user_type in USER_TYPES:
 
     generated = list_generated(user_type['output_folder'])
     print('Generados ' + str(len(generated)) + ' usuarios, omitiendo')
-    users = exclude_ruts(users, generated)
+    # users = exclude_ruts(users, generated)
 
     print('Generando ' + str(len(users)) + ' credenciales')
 
