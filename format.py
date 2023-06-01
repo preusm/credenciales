@@ -24,7 +24,6 @@ def generate(base_image, output_folder, user, output_format=OUTPUT_FORMAT):
     wpercent = (basewidth/float(img.size[0]))
     hsize = int((float(img.size[1])*float(wpercent)))
     img = img.resize((basewidth,hsize))
-    img = img.rotate(-90, expand=1)
     
     (x,y)=(175,25)
     image.paste(img,(x,y))
